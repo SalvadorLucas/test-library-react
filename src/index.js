@@ -30,8 +30,8 @@ var _columns = [
   { text: 'Subservice Id', datafield: 'subservice_id'}
 ]
 ReactDOM.render(<CimGrid 
-  host = 'http://172.17.46.70:8080/'
-  entity='SampleManagerDM/requests'
+  host = 'your server IP'
+  entity='Entity'
   datafields = {_datafields}
   columns = {_columns}
   root= 'request'
